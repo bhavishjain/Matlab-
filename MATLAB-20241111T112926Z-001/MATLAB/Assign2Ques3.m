@@ -1,0 +1,15 @@
+A1 = ones(5);
+disp(A1);
+A2 = ones(5,3);
+disp(A2);
+B = zeros(4,4);
+disp(B);
+C = eye(4);
+disp(C);
+D = rand(8);
+disp(D);
+disp(D(:,3));
+disp(D(2,:));
+disp(D(2,3));
+D(3:6,3:6) = zeros(4,4);
+disp(D);

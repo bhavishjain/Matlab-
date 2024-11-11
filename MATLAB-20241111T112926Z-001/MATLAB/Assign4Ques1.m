@@ -1,0 +1,23 @@
+x = linspace(1,100,10);
+y = x.*x/2;
+subplot(5,1,1);
+plot(x,y);
+subplot(5,1,2);
+xx = linspace(0,10);
+y1 = sin(xx);
+plot(xx,y1);
+subplot(5,1,3); 
+y2 = sin(5*xx);
+plot(xx,y2);
+subplot(5,1,4);
+plot3(1,1,1);
+bar(1,2);
+p = 1:3;
+q = 1:5;
+[P,Q] = meshgrid(p,q);
+disp(P);
+disp(Q);
+[M,N] = meshgrid(1:0.5:10,1:20);
+Z = sin(M) + cos(N);
+subplot(5,1,5);
+surf(M,N,Z)
